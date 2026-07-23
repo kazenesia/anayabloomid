@@ -53,7 +53,9 @@ body.modal-open {
 main {
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 body.modal-open main {
@@ -70,6 +72,7 @@ section {
   justify-content: center;
   padding: 80px 64px 96px;
   overflow: hidden;
+  will-change: scroll-position;
 }
 
 /* ---------- fixed chrome (Header / Brandmark) ---------- */
@@ -88,6 +91,8 @@ section {
   color: var(--ink);
   text-decoration: none;
   transition: opacity .25s;
+  transform: translateZ(0);
+  will-change: opacity;
 }
 
 .brandmark:hover {
@@ -127,6 +132,8 @@ nav.dots {
     border-radius: 24px;
     box-shadow: 0 4px 16px rgba(58, 37, 48, 0.12);
     border: 1px solid var(--line);
+    transform: translate(50%, 0) translateZ(0);
+    will-change: transform;
   }
   
   nav.dots a {
@@ -204,6 +211,8 @@ nav.dots a.active {
   color: #F4E9E2;
   letter-spacing: .03em;
   box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .contactbar .contact-links {
@@ -1177,9 +1186,16 @@ nav.dots a.active {
 }
 
 /* ================= REVEAL ANIMATION ================= */
-/* Scroll animation removed - all content shows immediately */
 .reveal {
-  /* No animation - content shows immediately */
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .6s ease, transform .6s ease;
+  will-change: opacity, transform;
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ================= RESPONSIVE MEDIA QUERIES ================= */
