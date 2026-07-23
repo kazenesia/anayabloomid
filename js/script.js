@@ -58,7 +58,7 @@ const FLOWER_BOX_DATA = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. IntersectionObserver untuk Scroll Dots & Reveal Animations
+  // 1. IntersectionObserver untuk Scroll Dots Navigation (no animation)
   const sections = document.querySelectorAll("main section");
   const dots = document.querySelectorAll("nav.dots a");
   const accentOf = (sec) => getComputedStyle(sec).getPropertyValue("--accent").trim() || "#C1637E";
@@ -73,9 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
           const acc = accentOf(e.target);
           dots[idx].style.setProperty("--accent-dot", acc);
         }
-        e.target.querySelectorAll(".reveal").forEach((el, i) => {
-          setTimeout(() => el.classList.add("in"), i * 90);
-        });
       }
     });
   }, { threshold: 0.45 });
