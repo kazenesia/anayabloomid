@@ -58,26 +58,43 @@ const FLOWER_BOX_DATA = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. IntersectionObserver untuk Scroll Dots Navigation (no animation)
+  // 1. IntersectionObserver untuk Scroll Dots Navigation (smooth performance)
   const sections = document.querySelectorAll("main section");
   const dots = document.querySelectorAll("nav.dots a");
   const accentOf = (sec) => getComputedStyle(sec).getPropertyValue("--accent").trim() || "#C1637E";
+  let currentIndex = 0;
 
   const io = new IntersectionObserver((entries) => {
     entries.forEach((e) => {
-      if (e.isIntersecting) {
+      if (e.isIntersecting && e.intersectionRatio >= 0.5) {
         const idx = [...sections].indexOf(e.target);
-        dots.forEach((d) => d.classList.remove("active"));
-        if (dots[idx]) {
-          dots[idx].classList.add("active");
-          const acc = accentOf(e.target);
-          dots[idx].style.setProperty("--accent-dot", acc);
+        if (idx !== currentIndex) {
+          currentIndex = idx;
+          dots.forEach((d) => d.classList.remove("active"));
+          if (dots[idx]) {
+            dots[idx].classList.add("active");
+            const acc = accentOf(e.target);
+            dots[idx].style.setProperty("--accent-dot", acc);
+          }
         }
       }
     });
-  }, { threshold: 0.45 });
+  }, { threshold: 0.5, rootMargin: "-10% 0px -10% 0px" });
 
   sections.forEach((s) => io.observe(s));
+
+  // 2. Trigger reveal animations when section comes into view
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting && e.intersectionRatio >= 0.3) {
+        e.target.querySelectorAll(".reveal").forEach((el, i) => {
+          setTimeout(() => el.classList.add("in"), i * 80);
+        });
+      }
+    });
+  }, { threshold: 0.3 });
+
+  sections.forEach((s) => revealObserver.observe(s));
 
   // 2. Setup Event Listeners untuk Tombol Detail Galeri
   const detailButtons = document.querySelectorAll(".btn-detail[data-category]");
