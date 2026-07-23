@@ -88,7 +88,7 @@ section {
   font-weight: 600;
   font-size: 15px;
   letter-spacing: .14em;
-  color: var(--ink);
+  color: #BA8431;
   text-decoration: none;
   transition: opacity .25s;
   transform: translateZ(0);
