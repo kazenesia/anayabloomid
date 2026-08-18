@@ -68,7 +68,7 @@ const FLOWER_BOX_DATA = {
       { id: 4, name: "Capsule #04 — Rose Gold", desc: "Perpaduan warna rose gold yang mewah dan feminin.", price: "Rp 130.000", img: "images/capsule/box-04.webp", fallbackImg: "images/box-04.jpg" },
       { id: 5, name: "Capsule #05 — Mint Fresh", desc: "Nuansa mint yang segar dan menenangkan untuk semua acara.", price: "Rp 130.000", img: "images/capsule/box-05.webp", fallbackImg: "images/box-05.jpg" },
       { id: 6, name: "Capsule #06 — Classic Black", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-06.webp", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Capsule #07 — Classic Brown", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-06.webp", fallbackImg: "images/box-07.jpg" }
+      { id: 7, name: "Capsule #07 — Classic Brown", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-07.webp", fallbackImg: "images/box-07.jpg" }
     ]
   },
   "hologram": {
@@ -87,7 +87,7 @@ const FLOWER_BOX_DATA = {
       { id: 7, name: "Hologram #07 — Rose Quartz", desc: "Pink muda quarzt rose dengan efek holografik lembut.", price: "Rp 165.000", img: "images/hologram/box-07.webp", fallbackImg: "images/box-07.jpg" },
       { id: 8, name: "Hologram #08 — Emerald Luxe", desc: "Hijau zamrud luxo dengan kilauan emas holografik.", price: "Rp 165.000", img: "images/hologram/box-08.webp", fallbackImg: "images/box-08.jpg" },
       { id: 9, name: "Hologram #09 — Coral Sunset", desc: "Oranye coral dengan gradasi pink holografik.", price: "Rp 165.000", img: "images/hologram/box-09.webp", fallbackImg: "images/box-09.jpg" },
-      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "images/hologram/box-10.webp", fallbackImg: "images/box-01.jpg" }
+      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "images/hologram/box-10.webp", fallbackImg: "images/box-10.jpg" }
     ]
   }
 };
