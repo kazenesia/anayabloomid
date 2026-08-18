@@ -58,16 +58,17 @@ const FLOWER_BOX_DATA = {
     "capsule": {
     title: "Flower Box Capsule",
     theme: "Modern & Futuristic Capsule",
-    totalItems: 6,
+    totalItems: 7,
     price: "Rp 130.000 (Promo) / Rp 160.000",
     description: "Desain flower box berbentuk capsule yang modern dan unik. Memberikan kesan futuristik namun tetap elegan dengan kombinasi warna yang menarik.",
     items: [
-      { id: 1, name: "Capsule #01 — Galaxy Purple", desc: "Nuansa ungu galaksi yang memukau dengan sentuhan bunga putih.", price: "Rp 130.000", img: "images/capsule-1.jpg", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Capsule #02 — Ocean Blue", desc: "Warna biru laut yang menyegarkan dengan aksen silver.", price: "Rp 130.000", img: "images/capsule-2.jpg", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Capsule #03 — Sunset Orange", desc: "Gradasi oranye matahari terbenam yang hangat dan romantis.", price: "Rp 130.000", img: "images/capsule-3.jpg", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Capsule #04 — Rose Gold", desc: "Perpaduan warna rose gold yang mewah dan feminin.", price: "Rp 130.000", img: "images/capsule-4.jpg", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Capsule #05 — Mint Fresh", desc: "Nuansa mint yang segar dan menenangkan untuk semua acara.", price: "Rp 130.000", img: "images/capsule-5.jpg", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Capsule #06 — Classic Black", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule-6.jpg", fallbackImg: "images/box-06.jpg" }
+      { id: 1, name: "Capsule #01 — Galaxy Purple", desc: "Nuansa ungu galaksi yang memukau dengan sentuhan bunga putih.", price: "Rp 130.000", img: "images/capsule/box-01.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Capsule #02 — Ocean Blue", desc: "Warna biru laut yang menyegarkan dengan aksen silver.", price: "Rp 130.000", img: "images/capsule/box-02.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Capsule #03 — Sunset Orange", desc: "Gradasi oranye matahari terbenam yang hangat dan romantis.", price: "Rp 130.000", img: "images/capsule/box-03.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Capsule #04 — Rose Gold", desc: "Perpaduan warna rose gold yang mewah dan feminin.", price: "Rp 130.000", img: "images/capsule/box-04.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Capsule #05 — Mint Fresh", desc: "Nuansa mint yang segar dan menenangkan untuk semua acara.", price: "Rp 130.000", img: "images/capsule/box-05.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Capsule #06 — Classic Black", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-06.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Capsule #07 — Classic Brown", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-06.webp", fallbackImg: "images/box-07.jpg" }
     ]
   },
   "hologram": {
@@ -77,16 +78,16 @@ const FLOWER_BOX_DATA = {
     price: "Rp 165.000 (Promo) / Rp 200.000",
     description: "Flower box dengan efek hologram yang memukau dan penuh warna. Koleksi eksklusif yang memberikan kesan mewah dan modern untuk acara spesial Anda.",
     items: [
-      { id: 1, name: "Hologram #01 — Rainbow Shine", desc: "Efek pelangi holografik yang mencolok dan memukau.", price: "Rp 165.000", img: "images/hologram-1.jpg", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Hologram #02 — Silver Starlight", desc: "Kilauan perak dan putih yang elegan seperti bintang.", price: "Rp 165.000", img: "images/hologram-2.jpg", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Hologram #03 — Golden Aurora", desc: "Aksen emas holografik dengan gradasi yang dramatis.", price: "Rp 165.000", img: "images/hologram-3.jpg", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Hologram #04 — Pink Dream", desc: "Nuansa pink holografik yang lembut dan romantis.", price: "Rp 165.000", img: "images/hologram-4.jpg", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Hologram #05 — Blue Ice", desc: "Efek es biru yang sejuk dan berkilau.", price: "Rp 165.000", img: "images/hologram-5.jpg", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Hologram #06 — Purple Mystic", desc: "Ungu mistis dengan kilauan holografik yang magis.", price: "Rp 165.000", img: "images/hologram-6.jpg", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Hologram #07 — Rose Quartz", desc: "Pink muda quarzt rose dengan efek holografik lembut.", price: "Rp 165.000", img: "images/hologram-7.jpg", fallbackImg: "images/box-07.jpg" },
-      { id: 8, name: "Hologram #08 — Emerald Luxe", desc: "Hijau zamrud luxo dengan kilauan emas holografik.", price: "Rp 165.000", img: "images/hologram-8.jpg", fallbackImg: "images/box-08.jpg" },
-      { id: 9, name: "Hologram #09 — Coral Sunset", desc: "Oranye coral dengan gradasi pink holografik.", price: "Rp 165.000", img: "images/hologram-9.jpg", fallbackImg: "images/box-09.jpg" },
-      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "images/hologram-10.jpg", fallbackImg: "images/box-01.jpg" }
+      { id: 1, name: "Hologram #01 — Rainbow Shine", desc: "Efek pelangi holografik yang mencolok dan memukau.", price: "Rp 165.000", img: "images/hologram/box-01.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Hologram #02 — Silver Starlight", desc: "Kilauan perak dan putih yang elegan seperti bintang.", price: "Rp 165.000", img: "images/hologram/box-02.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Hologram #03 — Golden Aurora", desc: "Aksen emas holografik dengan gradasi yang dramatis.", price: "Rp 165.000", img: "images/hologram/box-03.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Hologram #04 — Pink Dream", desc: "Nuansa pink holografik yang lembut dan romantis.", price: "Rp 165.000", img: "images/hologram/box-04.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Hologram #05 — Blue Ice", desc: "Efek es biru yang sejuk dan berkilau.", price: "Rp 165.000", img: "images/hologram/box-05.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Hologram #06 — Purple Mystic", desc: "Ungu mistis dengan kilauan holografik yang magis.", price: "Rp 165.000", img: "images/hologram/box-06.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Hologram #07 — Rose Quartz", desc: "Pink muda quarzt rose dengan efek holografik lembut.", price: "Rp 165.000", img: "images/hologram/box-07.webp", fallbackImg: "images/box-07.jpg" },
+      { id: 8, name: "Hologram #08 — Emerald Luxe", desc: "Hijau zamrud luxo dengan kilauan emas holografik.", price: "Rp 165.000", img: "images/hologram/box-08.webp", fallbackImg: "images/box-08.jpg" },
+      { id: 9, name: "Hologram #09 — Coral Sunset", desc: "Oranye coral dengan gradasi pink holografik.", price: "Rp 165.000", img: "images/hologram/box-09.webp", fallbackImg: "images/box-09.jpg" },
+      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "images/hologram/box-10.webp", fallbackImg: "images/box-01.jpg" }
     ]
   }
 };
