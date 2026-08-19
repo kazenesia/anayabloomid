@@ -12,15 +12,15 @@ const FLOWER_BOX_DATA = {
     price: "Rp 120.000 (Promo) / Rp 150.000",
     description: "Rangkaian bunga melingkar indah di sisi depan papan ucapan putih. Dirangkai dengan paduan warna menawan dan kelopak segar.",
     items: [
-      { id: 1, name: "Lingkar Depan #01 — Soft Pink", desc: "Nuansa pink fuchsia cerah dengan sentuhan anggrek dan mawar muda.", price: "Rp 120.000", img: "images/lingkar-depan/box-01.webp", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Lingkar Depan #02 — Maroon & Pink", desc: "Rangkaian pink lembut pastel dengan dahlia dan baby breath segar.", price: "Rp 120.000", img: "images/lingkar-depan/box-02.webp", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Lingkar Depan #03 — Baby Blue & Blue Denim", desc: "Kombinasi warna cerah ceria untuk kesan meriah dan mencolok.", price: "Rp 120.000", img: "images/lingkar-depan/box-03.webp", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Lingkar Depan #04 — Baby Blue & Pink", desc: "Nuansa warna peach dan krem hangat yang manis dan ramah.", price: "Rp 120.000", img: "images/lingkar-depan/box-04.webp", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Lingkar Depan #05 — Coffee & Cream", desc: "Perpaduan kelopak putih bersih dengan aksen pita gold mewah.", price: "Rp 120.000", img: "images/lingkar-depan/box-05.webp", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Lingkar Depan #06 — White & Cream", desc: "Dominasi merah dan maroon yang berani untuk perayaan bergengsi.", price: "Rp 120.000", img: "images/lingkar-depan/box-06.webp", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Lingkar Depan #07 — White & Pink", desc: "Kombinasi ungu lilac dan pink dengan susunan bunga padat.", price: "Rp 120.000", img: "images/lingkar-depan/box-07.webp", fallbackImg: "images/box-07.jpg" },
-      { id: 8, name: "Lingkar Depan #08 — Orange & Cream", desc: "Rangkaian putih polos elegan yang serbaguna untuk semua acara.", price: "Rp 120.000", img: "images/lingkar-depan/box-08.webp", fallbackImg: "images/box-08.jpg" },
-      { id: 9, name: "Lingkar Depan #09 — White & Baby Blue", desc: "Sentuhan bunga kuning emas dan sage green yang menyegarkan mata.", price: "Rp 120.000", img: "images/lingkar-depan/box-09.webp", fallbackImg: "images/box-09.jpg" }
+      { id: 1, name: "Lingkar Depan #01 — Soft Pink", desc: "Nuansa pink fuchsia cerah dengan sentuhan anggrek dan mawar muda.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155438/box-01.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Lingkar Depan #02 — Maroon & Pink", desc: "Rangkaian pink lembut pastel dengan dahlia dan baby breath segar.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155473/box-02.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Lingkar Depan #03 — Baby Blue & Blue Denim", desc: "Kombinasi warna cerah ceria untuk kesan meriah dan mencolok.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155509/box-03.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Lingkar Depan #04 — Baby Blue & Pink", desc: "Nuansa warna peach dan krem hangat yang manis dan ramah.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155513/box-04.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Lingkar Depan #05 — Coffee & Cream", desc: "Perpaduan kelopak putih bersih dengan aksen pita gold mewah.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155515/box-05.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Lingkar Depan #06 — White & Cream", desc: "Dominasi merah dan maroon yang berani untuk perayaan bergengsi.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155516/box-06.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Lingkar Depan #07 — White & Pink", desc: "Kombinasi ungu lilac dan pink dengan susunan bunga padat.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155517/box-07.webp", fallbackImg: "images/box-07.jpg" },
+      { id: 8, name: "Lingkar Depan #08 — Orange & Cream", desc: "Rangkaian putih polos elegan yang serbaguna untuk semua acara.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155519/box-08.webp", fallbackImg: "images/box-08.jpg" },
+      { id: 9, name: "Lingkar Depan #09 — White & Baby Blue", desc: "Sentuhan bunga kuning emas dan sage green yang menyegarkan mata.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787154675/box-09.webp", fallbackImg: "images/box-09.jpg" }
     ]
   },
   "vortex-putih": {
