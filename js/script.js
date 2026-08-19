@@ -30,14 +30,14 @@ const FLOWER_BOX_DATA = {
     price: "Rp 120.000 (Promo) / Rp 150.000",
     description: "Desain papan ucapan berona putih bersih dengan susunan bunga bergaya vortex (pusaran elok) yang modern dan anggun.",
     items: [
-      { id: 1, name: "Vortex Putih #01 — Mix Color", desc: "Susunan vortex bunga putih eksklusif dengan sentuhan gold foil.", price: "Rp 120.000", img: "images/vortex-putih/box-01.webp", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Vortex Putih #02 — Full Maroon", desc: "Papan putih berseri dengan pusaran bunga mawar pink yang romantis.", price: "Rp 120.000", img: "images/vortex-putih/box-02.webp", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Vortex Putih #03 — Baby Blue & Blue Denim", desc: "Nuansa tenang dengan paduan dedaunan sage green dan bunga krem.", price: "Rp 120.000", img: "images/vortex-putih/box-03.webp", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Vortex Putih #04 — Orange & Cream", desc: "Pusaran bunga ungu violet yang elegan di atas papan putih suci.", price: "Rp 120.000", img: "images/vortex-putih/box-04.webp", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Vortex Putih #05 — White & Blue", desc: "Kontras indah bunga merah merona menyelimuti papan ucapan putih.", price: "Rp 120.000", img: "images/vortex-putih/box-05.webp", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Vortex Putih #06 — Soft Pink", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "images/vortex-putih/box-06.webp", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Vortex Putih #07 — Maroon & Pink", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "images/vortex-putih/box-07.webp", fallbackImg: "images/box-07.jpg" },
-      { id: 8, name: "Vortex Putih #08 — White & Maroon", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "images/vortex-putih/box-08.webp", fallbackImg: "images/box-08.jpg" }
+      { id: 1, name: "Vortex Putih #01 — Mix Color", desc: "Susunan vortex bunga putih eksklusif dengan sentuhan gold foil.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157067/vortex-putih.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Vortex Putih #02 — Full Maroon", desc: "Papan putih berseri dengan pusaran bunga mawar pink yang romantis.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157068/vortex-putih-2.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Vortex Putih #03 — Baby Blue & Blue Denim", desc: "Nuansa tenang dengan paduan dedaunan sage green dan bunga krem.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157071/vortex-putih-3.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Vortex Putih #04 — Orange & Cream", desc: "Pusaran bunga ungu violet yang elegan di atas papan putih suci.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157075/vortex-putih-4.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Vortex Putih #05 — White & Blue", desc: "Kontras indah bunga merah merona menyelimuti papan ucapan putih.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157076/vortex-putih-5.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Vortex Putih #06 — Soft Pink", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157094/vortex-putih-6.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Vortex Putih #07 — Maroon & Pink", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157097/vortex-putih-7.webp", fallbackImg: "images/box-07.jpg" },
+      { id: 8, name: "Vortex Putih #08 — White & Maroon", desc: "Desain vortex minimalis dengan mutiara dan kelopak putih lembut.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157100/vortex-putih-8.webp", fallbackImg: "images/box-08.jpg" }
     ]
   },
   "vortex-maroon": {
@@ -47,12 +47,12 @@ const FLOWER_BOX_DATA = {
     price: "Rp 120.000 (Promo) / Rp 150.000",
     description: "Kombinasi papan dan rangkaian bunga dominasi merah maroon yang berani serta mewah dengan susunan pusaran bergaya prestisius.",
     items: [
-      { id: 1, name: "Vortex Maroon #01 — Red, Pink & White", desc: "Papan maroon dengan rangkaian bunga merah pekat dan aksen pita emas.", price: "Rp 120.000", img: "images/vortex-maroon/box-01.webp", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Vortex Maroon #02 — Burgundy & White", desc: "Susunan mawar burgundy yang mendalam, menciptakan kesan aristokrat.", price: "Rp 120.000", img: "images/vortex-maroon/box-02.webp", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Vortex Maroon #03 — Burgundy & White", desc: "Perpaduan kontras papan maroon pekat dengan kelopak pink blush.", price: "Rp 120.000", img: "images/vortex-maroon/box-03.webp", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Vortex Maroon #04 — Red & Burgundy", desc: "Bunga putih bersih bersinar di atas latar belakang papan maroon.", price: "Rp 120.000", img: "images/vortex-maroon/box-04.webp", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Vortex Maroon #05 — White & Pink", desc: "Detail daun kemilau emas berpadu dengan mawar merah gelap.", price: "Rp 120.000", img: "images/vortex-maroon/box-05.webp", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Vortex Maroon #06 — Mix Flower", desc: "Sentuhan bunga lavender dan ungu tua memperkaya tekstur papan maroon.", price: "Rp 120.000", img: "images/vortex-maroon/box-06.webp", fallbackImg: "images/box-06.jpg" }
+      { id: 1, name: "Vortex Maroon #01 — Red, Pink & White", desc: "Papan maroon dengan rangkaian bunga merah pekat dan aksen pita emas.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157250/vortex-maroon.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Vortex Maroon #02 — Burgundy & White", desc: "Susunan mawar burgundy yang mendalam, menciptakan kesan aristokrat.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157256/vortex-maroon-2.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Vortex Maroon #03 — Burgundy & White", desc: "Perpaduan kontras papan maroon pekat dengan kelopak pink blush.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157258/vortex-maroon-3.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Vortex Maroon #04 — Red & Burgundy", desc: "Bunga putih bersih bersinar di atas latar belakang papan maroon.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157261/vortex-maroon-4.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Vortex Maroon #05 — White & Pink", desc: "Detail daun kemilau emas berpadu dengan mawar merah gelap.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157264/vortex-maroon-5.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Vortex Maroon #06 — Mix Flower", desc: "Sentuhan bunga lavender dan ungu tua memperkaya tekstur papan maroon.", price: "Rp 120.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157266/vortex-maroon-6.webp", fallbackImg: "images/box-06.jpg" }
     ]
   },
     "capsule": {
@@ -78,16 +78,16 @@ const FLOWER_BOX_DATA = {
     price: "Rp 165.000 (Promo) / Rp 200.000",
     description: "Flower box dengan efek hologram yang memukau dan penuh warna. Koleksi eksklusif yang memberikan kesan mewah dan modern untuk acara spesial Anda.",
     items: [
-      { id: 1, name: "Hologram #01 — Rainbow Shine", desc: "Efek pelangi holografik yang mencolok dan memukau.", price: "Rp 165.000", img: "images/hologram/box-01.webp", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Hologram #02 — Silver Starlight", desc: "Kilauan perak dan putih yang elegan seperti bintang.", price: "Rp 165.000", img: "images/hologram/box-02.webp", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Hologram #03 — Golden Aurora", desc: "Aksen emas holografik dengan gradasi yang dramatis.", price: "Rp 165.000", img: "images/hologram/box-03.webp", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Hologram #04 — Pink Dream", desc: "Nuansa pink holografik yang lembut dan romantis.", price: "Rp 165.000", img: "images/hologram/box-04.webp", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Hologram #05 — Blue Ice", desc: "Efek es biru yang sejuk dan berkilau.", price: "Rp 165.000", img: "images/hologram/box-05.webp", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Hologram #06 — Purple Mystic", desc: "Ungu mistis dengan kilauan holografik yang magis.", price: "Rp 165.000", img: "images/hologram/box-06.webp", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Hologram #07 — Rose Quartz", desc: "Pink muda quarzt rose dengan efek holografik lembut.", price: "Rp 165.000", img: "images/hologram/box-07.webp", fallbackImg: "images/box-07.jpg" },
-      { id: 8, name: "Hologram #08 — Emerald Luxe", desc: "Hijau zamrud luxo dengan kilauan emas holografik.", price: "Rp 165.000", img: "images/hologram/box-08.webp", fallbackImg: "images/box-08.jpg" },
-      { id: 9, name: "Hologram #09 — Coral Sunset", desc: "Oranye coral dengan gradasi pink holografik.", price: "Rp 165.000", img: "images/hologram/box-09.webp", fallbackImg: "images/box-09.jpg" },
-      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "images/hologram/box-10.webp", fallbackImg: "images/box-10.jpg" }
+      { id: 1, name: "Hologram #01 — Rainbow Shine", desc: "Efek pelangi holografik yang mencolok dan memukau.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157856/hologram.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Hologram #02 — Silver Starlight", desc: "Kilauan perak dan putih yang elegan seperti bintang.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157886/hologram-2.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Hologram #03 — Golden Aurora", desc: "Aksen emas holografik dengan gradasi yang dramatis.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157890/hologram-3.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Hologram #04 — Pink Dream", desc: "Nuansa pink holografik yang lembut dan romantis.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157905/hologram-4.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Hologram #05 — Blue Ice", desc: "Efek es biru yang sejuk dan berkilau.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157930/hologram-5.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Hologram #06 — Purple Mystic", desc: "Ungu mistis dengan kilauan holografik yang magis.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157930/hologram-6.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Hologram #07 — Rose Quartz", desc: "Pink muda quarzt rose dengan efek holografik lembut.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157925/hologram-7.webp", fallbackImg: "images/box-07.jpg" },
+      { id: 8, name: "Hologram #08 — Emerald Luxe", desc: "Hijau zamrud luxo dengan kilauan emas holografik.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157936/hologram-8.webp", fallbackImg: "images/box-08.jpg" },
+      { id: 9, name: "Hologram #09 — Coral Sunset", desc: "Oranye coral dengan gradasi pink holografik.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157945/hologram-9.webp", fallbackImg: "images/box-09.jpg" },
+      { id: 10, name: "Hologram #10 — Diamond Elite", desc: "Putih kristal eksklusif dengan efek berlian holografik.", price: "Rp 165.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787157947/hologram-10.webp", fallbackImg: "images/box-10.jpg" }
     ]
   }
 };
