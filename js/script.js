@@ -62,13 +62,13 @@ const FLOWER_BOX_DATA = {
     price: "Rp 130.000 (Promo) / Rp 160.000",
     description: "Desain flower box berbentuk capsule yang modern dan unik. Memberikan kesan futuristik namun tetap elegan dengan kombinasi warna yang menarik.",
     items: [
-      { id: 1, name: "Capsule #01 — Galaxy Purple", desc: "Nuansa ungu galaksi yang memukau dengan sentuhan bunga putih.", price: "Rp 130.000", img: "images/capsule/box-01.webp", fallbackImg: "images/box-01.jpg" },
-      { id: 2, name: "Capsule #02 — Ocean Blue", desc: "Warna biru laut yang menyegarkan dengan aksen silver.", price: "Rp 130.000", img: "images/capsule/box-02.webp", fallbackImg: "images/box-02.jpg" },
-      { id: 3, name: "Capsule #03 — Sunset Orange", desc: "Gradasi oranye matahari terbenam yang hangat dan romantis.", price: "Rp 130.000", img: "images/capsule/box-03.webp", fallbackImg: "images/box-03.jpg" },
-      { id: 4, name: "Capsule #04 — Rose Gold", desc: "Perpaduan warna rose gold yang mewah dan feminin.", price: "Rp 130.000", img: "images/capsule/box-04.webp", fallbackImg: "images/box-04.jpg" },
-      { id: 5, name: "Capsule #05 — Mint Fresh", desc: "Nuansa mint yang segar dan menenangkan untuk semua acara.", price: "Rp 130.000", img: "images/capsule/box-05.webp", fallbackImg: "images/box-05.jpg" },
-      { id: 6, name: "Capsule #06 — Classic Black", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-06.webp", fallbackImg: "images/box-06.jpg" },
-      { id: 7, name: "Capsule #07 — Classic Brown", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "images/capsule/box-07.webp", fallbackImg: "images/box-07.jpg" }
+      { id: 1, name: "Capsule #01 — Galaxy Purple", desc: "Nuansa ungu galaksi yang memukau dengan sentuhan bunga putih.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155150/box_01.webp", fallbackImg: "images/box-01.jpg" },
+      { id: 2, name: "Capsule #02 — Ocean Blue", desc: "Warna biru laut yang menyegarkan dengan aksen silver.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155152/box_02.webp", fallbackImg: "images/box-02.jpg" },
+      { id: 3, name: "Capsule #03 — Sunset Orange", desc: "Gradasi oranye matahari terbenam yang hangat dan romantis.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155190/box_03.webp", fallbackImg: "images/box-03.jpg" },
+      { id: 4, name: "Capsule #04 — Rose Gold", desc: "Perpaduan warna rose gold yang mewah dan feminin.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155192/box_04.webp", fallbackImg: "images/box-04.jpg" },
+      { id: 5, name: "Capsule #05 — Mint Fresh", desc: "Nuansa mint yang segar dan menenangkan untuk semua acara.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155197/box_05.webp", fallbackImg: "images/box-05.jpg" },
+      { id: 6, name: "Capsule #06 — Classic Black", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155224/box_06.webp", fallbackImg: "images/box-06.jpg" },
+      { id: 7, name: "Capsule #07 — Classic Brown", desc: "Desain hitam klasik dengan aksen emas yang elegan.", price: "Rp 130.000", img: "https://res.cloudinary.com/fvlmesou/image/upload/v1787155227/box_07.webp", fallbackImg: "images/box-07.jpg" }
     ]
   },
   "hologram": {
